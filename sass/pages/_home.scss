@@ -1,0 +1,31 @@
+.section-about{
+    background-color: $color-gray-light-1;
+    padding: 15rem 0;
+    margin-top: -20vh;
+}
+
+.section-features{
+    padding: 12rem 0;
+    background-image: linear-gradient(to right bottom, 
+    rgba($color-primary-light, 0.8), 
+    rgba($color-primary-dark, 0.8)), 
+    url(../img/pexels-eberhard-grossgasteiger-572897.jpg);
+    background-size: cover;
+    transform: skewY(-7deg);
+    margin-top: -5rem;
+
+    & > * {
+        transform: skewY(7deg);
+    }
+}
+
+.section-tour{
+    background-color: $color-gray-light-1;
+    padding: 15rem 0 0 0;
+    margin-top: -5rem;
+}
+
+.section-stories {
+    padding: 15rem 0;
+    background-color: $color-gray-light-1;
+}
